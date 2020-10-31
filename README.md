@@ -45,7 +45,7 @@ $  cd OpenRAM/Spice/PreLayout
 
 
 #### Circuit Diagram
-
+![6T Cell](/Diagram/CircuitDiagram/cell_6t.png)
 
 ##### DC Analysis of Inverter
 ```sh
@@ -59,14 +59,14 @@ ngspice tran_dc.sp
 
 
 #### Circuit Diagram
-
+![Sense Amplifier](/Diagram/CircuitDiagram/sense_amp.png)
 
 # Write Driver
 #### Block Diagram
 
 
 #### Circuit Diagram
-
+![Write Driver](/Diagram/CircuitDiagram/write_driver.png)
 
 # Tri-State Buffer
 #### Block Diagram
