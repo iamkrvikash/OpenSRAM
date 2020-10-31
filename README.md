@@ -18,7 +18,7 @@ Table of Contents
   * Pre Layout
   * [Installation](#installation)
   * [Future Works](#future-works)
-  * [Contact Information](#contact)
+  * [Contact Information](#contact-information)
    
   # SRAM Design
   The project is focused on the design of 1k*32-bit 6T SRAM memory using opensource memory compiler  [OpenRAM](https://openram.soe.ucsc.edu/) compiler. For the design of custom memory array, memory compiler takes in SPICE netlists, Layout files of the custom cells designed and few other parameters and generates a SRAM memory array.
