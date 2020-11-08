@@ -1,5 +1,6 @@
-*********************** Write_Driver ******************************
-.SUBCKT write_driver din bl br en vdd gnd
+****  Write_Driver ******
+
+.subckt write_driver din bl br en vdd gnd
 
 **** Inverter to conver Data_in to data_in_bar ******
 * din_bar = inv(din)
@@ -16,7 +17,7 @@ M_6 din_bar_gated din vdd vdd p W=1.4u L=0.4u
 M_7 din_bar_gated_bar din_bar_gated vdd vdd p W=1.4u L=0.4u
 M_8 din_bar_gated_bar din_bar_gated gnd gnd n W=0.8u L=0.4u
 
-**** 2input nand gate follwed by inverter to drive BR******
+**** 2input nand gate follwed by inverter to drive BLB******
 * din_gated = nand(en, din_bar)
 M_9 din_gated en vdd vdd p W=1.4u L=0.4u
 M_10 din_gated en net_8 gnd n W=1.4u L=0.4u
@@ -33,4 +34,4 @@ M_16 br din_bar_gated_bar gnd gnd n W=2.4u L=0.4u
 
 
 
-.ENDS   $ write_driver
+.ends  write_driver
