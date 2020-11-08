@@ -55,7 +55,7 @@ ngspice tran_dc.sp
 
 # Sense Amplifier
 #### Block Diagram
-![6T Cell Block](/Diagram/BlockDiagram/SenseAmp.png)
+![Sense Amp Block](/Diagram/BlockDiagram/SenseAmp.png)
 
 #### Circuit Diagram
 ![Sense Amplifier](/Diagram/CircuitDiagram/sense_amp.png)
@@ -69,27 +69,24 @@ ngspice tran_dc.sp
 
 # Tri-State Buffer
 #### Block Diagram
-![6T Cell Block](/Diagram/BlockDiagram/TriState.png)
+![Tri-State Block](/Diagram/BlockDiagram/TriState.png)
 
 #### Circuit Diagram
 
 
-# Pre-Charge Circuit
+# Pre Charge Circuit
 #### Block Diagram
-![6T Cell Block](/Diagram/BlockDiagram/PreCharge.png)
+![Pre-Charge Block](/Diagram/BlockDiagram/PreCharge.png)
 
 #### Circuit Diagram
 
-
-# Control Logic
-#### Block Diagram
 
 
 # Simulation of 6T-SRAM Cell with write driver and sense amplifier
 ```sh
-ngspice tran_clc.sp
+ngspice tb_tran.sp
 ```
-
+![SRAM Simulation](/Waveforms/PreLayout/tb_tran.png)
 
 # Installation 
 *  To download EDA tools (NgSpice, Magic, Netgen) on your System. Follow [Github Page](https://github.com/silicon-vlsi/project2020#Cloning-the-Repository) and Clone the Repo.
