@@ -12,7 +12,7 @@ Table of Contents
     - [Sense Amplifier](#sense-amplifier)
     - [Write Driver](#write-driver)
     - [Tri-State Buffer](#tri-state-buffer)
-    - [Pre-Charge Circuit](#pre-chrage-circuit)
+    - [Pre-Charge Circuit](#pre-charge-circuit)
     - [Simulation of 6T SRAM Cell](#simulation-of-6t-sram-cell-with-write-driver-and-sense-amplifier)
   * Pre Layout
   * [Installation](#installation)
@@ -74,7 +74,7 @@ ngspice tran_dc.sp
 #### Circuit Diagram
 
 
-# Pre Charge Circuit
+# Pre-Charge Circuit
 #### Block Diagram
 ![Pre-Charge Block](/Diagram/BlockDiagram/PreCharge.png)
 
