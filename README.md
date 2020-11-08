@@ -13,7 +13,6 @@ Table of Contents
     - [Write Driver](#write-driver)
     - [Tri-State Buffer](#tri-state-buffer)
     - [Pre-Charge Circuit](#pre-chrage-circuit)
-    - [Control Logic](#control-logic)
     - [Simulation of 6T SRAM Cell](#simulation-of-6t-sram-cell-with-write-driver-and-sense-amplifier)
   * Pre Layout
   * [Installation](#installation)
@@ -42,7 +41,7 @@ $  cd OpenRAM/Spice/PreLayout
 
 # 6T Memory Cell
 #### Block Diagram
-
+![6T Cell Block](/Diagram/BlockDiagram/6TCell.png)
 
 #### Circuit Diagram
 ![6T Cell](/Diagram/CircuitDiagram/cell_6t.png)
@@ -56,28 +55,28 @@ ngspice tran_dc.sp
 
 # Sense Amplifier
 #### Block Diagram
-
+![6T Cell Block](/Diagram/BlockDiagram/SenseAmp.png)
 
 #### Circuit Diagram
 ![Sense Amplifier](/Diagram/CircuitDiagram/sense_amp.png)
 
 # Write Driver
 #### Block Diagram
-
+![6T Cell Block](/Diagram/BlockDiagram/WriteDriver.png)
 
 #### Circuit Diagram
 ![Write Driver](/Diagram/CircuitDiagram/write_driver.png)
 
 # Tri-State Buffer
 #### Block Diagram
-
+![6T Cell Block](/Diagram/BlockDiagram/TriState.png)
 
 #### Circuit Diagram
 
 
 # Pre-Charge Circuit
 #### Block Diagram
-
+![6T Cell Block](/Diagram/BlockDiagram/PreCharge.png)
 
 #### Circuit Diagram
 
