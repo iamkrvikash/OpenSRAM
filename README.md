@@ -20,7 +20,7 @@ Table of Contents
   * [Contact Information](#contact-information)
    
   # SRAM Design
-  The project is focused on the design of 1k*32-bit 6T SRAM memory using opensource memory compiler  [OpenRAM](https://openram.soe.ucsc.edu/) compiler. For the design of custom memory array, memory compiler takes in SPICE netlists, Layout files of the custom cells designed and few other parameters and generates a SRAM memory array.
+  The project is focused on the design of 1k*32-bit 6T SRAM memory using opensource memory compiler  [OpenRAM](https://openram.soe.ucsc.edu/). For the design of custom memory array, memory compiler takes in SPICE netlists, Layout files of the custom cells designed and few other parameters and generates a SRAM memory array.
 
 SRAM Specs - Memory Size of **1k x 32-bit,** Operating voltage - **5V**, Technology PDK file - **0.5um SCMOS** Technology from MOSIS.
 * For more information on OpenRAM. [Click here](https://github.com/VLSIDA/OpenRAM.git)
